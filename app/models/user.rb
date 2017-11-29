@@ -2,6 +2,7 @@ class User < ApplicationRecord
   has_many :images
   has_many :comments
   has_many :favorites
+  has_many :tags
 
   validates :email, :presence => true
   validates :email, :uniqueness => true
