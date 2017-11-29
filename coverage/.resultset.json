@@ -756,7 +756,20 @@
         1,
         null,
         1,
+        2,
+        2,
+        null,
+        null,
         1,
+        2,
+        2,
+        null,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
         null
       ],
       "/Users/Guest/Desktop/imagr/spec/models/image_spec.rb": [
@@ -830,6 +843,6 @@
         null
       ]
     },
-    "timestamp": 1511981964
+    "timestamp": 1511982081
   }
 }
