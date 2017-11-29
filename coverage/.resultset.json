@@ -5,7 +5,22 @@
         1,
         null,
         1,
+        2,
+        2,
+        2,
+        null,
+        null,
         1,
+        2,
+        2,
+        null,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
         null
       ],
       "/Users/Guest/Desktop/imagr/spec/rails_helper.rb": [
@@ -662,7 +677,6 @@
         1,
         1,
         1,
-        1,
         null,
         1,
         null,
@@ -772,7 +786,20 @@
         1,
         null,
         1,
+        2,
+        2,
+        null,
+        null,
         1,
+        2,
+        2,
+        null,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
         null
       ],
       "/Users/Guest/Desktop/imagr/spec/models/user_spec.rb": [
@@ -803,6 +830,6 @@
         null
       ]
     },
-    "timestamp": 1511981539
+    "timestamp": 1511981964
   }
 }

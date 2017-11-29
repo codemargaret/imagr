@@ -1,7 +1,6 @@
 class Comment < ApplicationRecord
   belongs_to :image
   belongs_to :user
-  has_many :favorites
 
   validates :body, :presence => true
 
