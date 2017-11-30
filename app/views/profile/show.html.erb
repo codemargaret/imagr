@@ -12,7 +12,7 @@
       <div class="card">
         <div class="card-block">
         <%= image_tag(image.photo) %>
-        <h3>Title: <%= image.title %></h3>
+        <h3>Title: <%= link_to image.title, image_path(image) %></h3>
         <h5>Description: <%= image.description %></h5>
         <h5>Posted: <%= image.created_at.to_formatted_s(:long_ordinal) %></h5>
         <% if current_user && current_user.id === @user.id %>
