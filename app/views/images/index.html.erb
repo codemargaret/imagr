@@ -1,0 +1,16 @@
+<h1>Welcome</h1>
+<h3>Newest images</h3>
+<% @images.each do |image| %>
+  <div class="row">
+    <div class="col sm-4">
+      <div class="card">
+        <div class="card-block">
+        <%= image_tag(image.photo) %>
+        <h1>test</h1>
+        </div>
+      </div>
+    </div>
+  </div><br>
+<% end %>
+
+<!-- current_user.avatar.url(:thumb) -->
