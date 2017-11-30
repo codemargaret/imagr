@@ -7,6 +7,7 @@ class ImagesController < ApplicationController
     @image = Image.find(params[:id])
     @user = @image.user
     @comments = @image.comments
+    @tags = @image.tags
   end
 
   def new

@@ -1,0 +1,8 @@
+<%= render "layouts/errors", :object => @tag %>
+
+<%= form_for [@image, @tag] do |f| %>
+  <%= f.hidden_field(:image_id, :value => @image.id) %>
+  <% option = options_from_collection_for_select(@users, 'id', 'username') %>
+  <%= f.select :user_id, option %>
+  <%= f.button :Submit, :class => 'btn btn-info' %>
+<% end %>

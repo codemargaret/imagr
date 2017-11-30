@@ -5,6 +5,10 @@ Rails.application.routes.draw do
     resources :comments
   end
 
+  resources :images do
+    resources :tags
+  end
+
   resources :profile
 
   devise_for :users

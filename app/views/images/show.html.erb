@@ -3,6 +3,24 @@
 <h3>Posted by: <%= @image.user.username %></h3>
 <h5>Description: <%= @image.description %></h5>
 <h5>Posted: <%= @image.created_at.to_formatted_s(:long_ordinal) %></h5>
+<% @tags.each do |tag| %>
+  <div class="row">
+    <div class="col sm-4">
+      <div class="card">
+        <div class="card-block">
+          <h4>@<%= tag.user.username %></h4>
+          <% if current_user && current_user.id === @user.id %>
+            <p><%= link_to "Delete", image_tag_path(@image, tag),
+             :data => {:confirm => "You sure?",
+             :method => "delete"} %>
+           </p>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div><br>
+<% end %>
+
 
 
 <% @comments.each do |comment| %>
@@ -27,4 +45,5 @@
 <% end %>
 
 
+<%= link_to('Add Tag', new_image_tag_path(@image))  %>
 <%= link_to('New Comment', new_image_comment_path(@image)) %>
