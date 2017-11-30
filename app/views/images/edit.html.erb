@@ -1,0 +1,6 @@
+<h1>Edit Image</h1>
+<% if current_user %>
+    <%= render "form" %>
+<% else %>
+  <h2>Please log in to edit Photos</h2>
+<% end %>
