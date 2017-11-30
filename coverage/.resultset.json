@@ -1,26 +1,11 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/imagr/spec/models/comment_spec.rb": [
+      "/Users/Guest/Desktop/imagr/spec/controllers/images_controller_spec.rb": [
         1,
         null,
         1,
-        2,
-        2,
-        2,
         null,
-        null,
-        1,
-        2,
-        2,
-        null,
-        null,
-        1,
-        2,
-        2,
-        2,
-        2,
-        2,
         null
       ],
       "/Users/Guest/Desktop/imagr/spec/rails_helper.rb": [
@@ -593,6 +578,13 @@
       "/Users/Guest/Desktop/imagr/config/routes.rb": [
         1,
         1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
         1,
         null,
         null
@@ -615,6 +607,9 @@
         null,
         1,
         null,
+        null,
+        1,
+        1,
         null,
         null,
         null,
@@ -651,6 +646,14 @@
         1,
         null
       ],
+      "/Users/Guest/Desktop/imagr/app/helpers/images_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/imagr/app/helpers/profile_helper.rb": [
+        1,
+        null
+      ],
       "/Users/Guest/Desktop/imagr/app/channels/application_cable/channel.rb": [
         1,
         1,
@@ -660,6 +663,46 @@
       "/Users/Guest/Desktop/imagr/app/channels/application_cable/connection.rb": [
         1,
         1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/imagr/app/controllers/images_controller.rb": [
+        1,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/imagr/app/controllers/profile_controller.rb": [
+        1,
+        1,
+        0,
+        0,
         null,
         null
       ],
@@ -704,6 +747,9 @@
         null,
         1,
         null,
+        1,
+        null,
+        1,
         1,
         null
       ],
@@ -750,6 +796,51 @@
         1,
         null,
         null,
+        null
+      ],
+      "/Users/Guest/Desktop/imagr/spec/controllers/users_controller_spec.rb": [
+
+      ],
+      "/Users/Guest/Desktop/imagr/spec/helpers/images_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/imagr/spec/helpers/users_helper_spec.rb": [
+
+      ],
+      "/Users/Guest/Desktop/imagr/spec/models/comment_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        null,
+        null,
+        1,
+        2,
+        2,
+        null,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
         null
       ],
       "/Users/Guest/Desktop/imagr/spec/models/favorite_spec.rb": [
@@ -843,6 +934,6 @@
         null
       ]
     },
-    "timestamp": 1511982081
+    "timestamp": 1512058731
   }
 }
