@@ -1,0 +1,6 @@
+<% if current_user %>
+  <h2>Edit comment</h2>
+  <%= render "form" %>
+<% else %>
+  <h2>Please log in to Edit comments</h2>
+<% end %>
