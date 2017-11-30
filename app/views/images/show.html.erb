@@ -6,44 +6,40 @@
 <% @tags.each do |tag| %>
   <div class="row">
     <div class="col sm-4">
-      <div class="card">
-        <div class="card-block">
-          <h4>@<%= tag.user.username %></h4>
-          <% if current_user && current_user.id === @user.id %>
-            <p><%= link_to "Delete", image_tag_path(@image, tag),
-             :data => {:confirm => "You sure?",
-             :method => "delete"} %>
-           </p>
-          <% end %>
-        </div>
-      </div>
+      <h4>@<%= tag.user.username %></h4>
+      <% if current_user && current_user.id === @user.id %>
+        <p><%= link_to "Delete", image_tag_path(@image, tag),
+         :data => {:confirm => "You sure?",
+         :method => "delete"} %>
+       </p>
+      <% end %>
     </div>
-  </div><br>
+  </div>
 <% end %>
 
-
-
-<% @comments.each do |comment| %>
-  <div class="row">
-    <div class="col sm-4">
-      <div class="card">
-        <div class="card-block">
-          <h4>Author: <%= comment.user.username %></h4>
-          <h5>Posted: <%= comment.created_at.to_formatted_s(:long_ordinal) %></h5>
-          <h3><%= comment.body %></h3>
-          <% if current_user && current_user.id === @user.id %>
-            <p><%= link_to('Edit', edit_image_comment_path(@image, comment))  %> |
-            <%= link_to "Delete", image_comment_path(@image, comment),
-             :data => {:confirm => "You sure?",
-             :method => "delete"} %>
-           </p>
-          <% end %>
+<% if @comments.any? %>
+  <h3>Comments:</h3>
+  <% @comments.each do |comment| %>
+    <div class="row">
+      <div class="col sm-4">
+        <div class="card">
+          <div class="card-block">
+            <h4>Author: <%= comment.user.username %></h4>
+            <h5>Posted: <%= comment.created_at.to_formatted_s(:long_ordinal) %></h5>
+            <h3><%= comment.body %></h3>
+            <% if current_user && current_user.id === @user.id %>
+              <p><%= link_to('Edit', edit_image_comment_path(@image, comment))  %> |
+              <%= link_to "Delete", image_comment_path(@image, comment),
+               :data => {:confirm => "You sure?",
+               :method => "delete"} %>
+             </p>
+            <% end %>
+          </div>
         </div>
       </div>
-    </div>
-  </div><br>
+    </div><br>
+  <% end %>
 <% end %>
-
 
 <%= link_to('Add Tag', new_image_tag_path(@image))  %>
 <%= link_to('New Comment', new_image_comment_path(@image)) %>

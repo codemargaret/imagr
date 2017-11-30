@@ -1,8 +1,11 @@
 class TagsController < ApplicationController
   def new
     @image = Image.find(params[:image_id])
-    @tag = Tag.new
     @users = User.all
+    @image.tags.each do |tag|
+      @users -= [User.find(tag.user_id)]
+    end
+    @tag = Tag.new
   end
 
   def create
