@@ -1,0 +1,7 @@
+<%= image_tag(@image.photo) %>
+<h3>Title: <%= @image.title %></h3>
+<h3>Posted by: <%= @image.user.username %></h3>
+<h5>Description: <%= @image.description %></h5>
+<h5>Posted: <%= @image.created_at.to_formatted_s(:long_ordinal) %></h5>
+
+<%= link_to('New Image', new_image_comment_path(@image)) %>

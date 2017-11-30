@@ -3,6 +3,10 @@ class ImagesController < ApplicationController
     @images = Image.all
   end
 
+  def show
+    @image = Image.find(params[:id])
+  end
+
   def new
     if current_user
       @user = current_user

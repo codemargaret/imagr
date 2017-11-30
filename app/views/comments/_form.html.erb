@@ -1,0 +1,11 @@
+<%= render "layouts/errors", :object => @comment %>
+
+<%= form_for [@image, @comment] do |f| %> 
+  <div class="form-group">
+    <%= f.label :body %>
+    <%= f.text_field :body, :class => "form-control" %>
+  </div>
+  <%= f.hidden_field(:user_id, :value => current_user.id) %>
+  <%= f.hidden_field(:image_id, :value => @image.id) %>
+  <%= f.button :Submit, :class => 'btn btn-info' %>
+<% end %>

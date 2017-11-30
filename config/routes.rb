@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   root :to => 'images#index'
 
-  resources :images
+  resources :images do
+    resources :comments
+  end
 
   resources :profile
 
