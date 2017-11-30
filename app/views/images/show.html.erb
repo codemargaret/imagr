@@ -13,6 +13,13 @@
           <h4>Author: <%= comment.user.username %></h4>
           <h5>Posted: <%= comment.created_at.to_formatted_s(:long_ordinal) %></h5>
           <h3><%= comment.body %></h3>
+          <% if current_user && current_user.id === @user.id %>
+            <p><%= link_to('Edit', edit_image_comment_path(@image, comment))  %> |
+            <%= link_to "Delete", image_comment_path(@image, comment),
+             :data => {:confirm => "You sure?",
+             :method => "delete"} %>
+           </p>
+          <% end %>
         </div>
       </div>
     </div>
