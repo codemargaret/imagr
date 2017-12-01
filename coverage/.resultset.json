@@ -633,7 +633,7 @@
         null,
         null,
         1,
-        8,
+        9,
         null,
         null
       ],
@@ -650,9 +650,9 @@
         1,
         null,
         1,
-        4,
-        4,
-        4,
+        6,
+        6,
+        6,
         null,
         null
       ],
@@ -737,7 +737,7 @@
       "/Users/Guest/Desktop/imagr/app/controllers/images_controller.rb": [
         1,
         1,
-        2,
+        3,
         null,
         null,
         1,
@@ -799,8 +799,8 @@
       "/Users/Guest/Desktop/imagr/app/controllers/profile_controller.rb": [
         1,
         1,
-        0,
-        0,
+        1,
+        1,
         null,
         null
       ],
@@ -913,7 +913,10 @@
       "/Users/Guest/Desktop/imagr/spec/factories/images.rb": [
         1,
         1,
-        null,
+        1,
+        1,
+        1,
+        1,
         null,
         null
       ],
@@ -925,6 +928,7 @@
         null
       ],
       "/Users/Guest/Desktop/imagr/spec/factories/users.rb": [
+        1,
         1,
         1,
         1,
@@ -943,6 +947,22 @@
       "/Users/Guest/Desktop/imagr/spec/features/sign_in_spec.rb": [
         1,
         null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/imagr/spec/features/user_profile_page_image_spec.rb": [
+        1,
+        null,
+        1,
+        1,
         1,
         1,
         1,
@@ -1121,6 +1141,6 @@
         null
       ]
     },
-    "timestamp": 1512088304
+    "timestamp": 1512089416
   }
 }
