@@ -1,9 +1,17 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/imagr/spec/controllers/comments_controller_spec.rb": [
+      "/Users/Guest/Desktop/imagr/spec/features/admin_block_path_spec.rb": [
         1,
         null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         1,
         null,
         null
@@ -522,9 +530,13 @@
         null,
         null,
         null,
+        1,
+        1,
         null,
+        1,
         null,
-        null,
+        1,
+        1,
         null,
         null,
         null,
@@ -584,6 +596,10 @@
         null,
         null,
         1,
+        1,
+        null,
+        null,
+        1,
         null,
         1,
         null,
@@ -617,11 +633,7 @@
         null,
         null,
         1,
-        6,
-        null,
-        null,
-        1,
-        0,
+        8,
         null,
         null
       ],
@@ -638,9 +650,9 @@
         1,
         null,
         1,
-        0,
-        0,
-        0,
+        4,
+        4,
+        4,
         null,
         null
       ],
@@ -725,10 +737,12 @@
       "/Users/Guest/Desktop/imagr/app/controllers/images_controller.rb": [
         1,
         1,
-        0,
+        2,
         null,
         null,
         1,
+        0,
+        0,
         0,
         0,
         0,
@@ -796,25 +810,13 @@
         0,
         0,
         0,
+        0,
+        null,
+        0,
         null,
         null,
         1,
         0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        null,
-        1,
         0,
         0,
         0,
@@ -925,26 +927,32 @@
       "/Users/Guest/Desktop/imagr/spec/factories/users.rb": [
         1,
         1,
-        null,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/imagr/spec/controllers/images_controller_spec.rb": [
+        1,
+        1,
         1,
         null,
-        1,
         null,
-        null
-      ],
-      "/Users/Guest/Desktop/imagr/spec/controllers/tags_controller_spec.rb": [
         1,
-        null,
+        1,
+        1,
+        1,
         1,
         null,
         null
       ],
-      "/Users/Guest/Desktop/imagr/spec/controllers/users_controller_spec.rb": [
-
+      "/Users/Guest/Desktop/imagr/spec/features/sign_in_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
       ],
       "/Users/Guest/Desktop/imagr/spec/helpers/comments_helper_spec.rb": [
         1,
@@ -1113,6 +1121,6 @@
         null
       ]
     },
-    "timestamp": 1512079447
+    "timestamp": 1512088304
   }
 }

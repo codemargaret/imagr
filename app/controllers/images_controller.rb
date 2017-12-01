@@ -8,6 +8,7 @@ class ImagesController < ApplicationController
     @user = @image.user
     @comments = @image.comments
     @tags = @image.tags
+    binding.pry
   end
 
   def new
