@@ -1,4 +1,4 @@
-# Stack Wonderflow
+# Imagr
 
 #### _A clone of Flickr, 11.30.2017_
 
